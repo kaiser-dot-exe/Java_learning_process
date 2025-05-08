@@ -17,7 +17,8 @@ public class Main {
 
         }
         
-        else {
+        else
+        {
             x1 = -b / (2 * a);
             System.out.println("x1=x2=" + x1);
 
