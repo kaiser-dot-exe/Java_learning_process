@@ -8,6 +8,7 @@ public class Main {
         }
         
         for (int i = 2; i <= num / 2; i++) {
+
             if (num % i == 0 && num % 3==0)
             {
                 System.out.println("Your number is not prime number");
