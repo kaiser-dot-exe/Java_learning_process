@@ -1,6 +1,15 @@
+import java.util.Scanner;
+import java.util.Locale;
+
 public class Main {
     public static void main(String[] args) {
-        int number = 7, sum = 0;
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter your number: ");
+        int number = input.nextInt();
+
+        int sum = 0;
+
         for (int i = 1; (i <= (number / 2)); i++) {
 
 
@@ -14,8 +23,7 @@ public class Main {
 
         if (number == sum) {
             System.out.println("Your number is perfect.");
-        }
-        else {
+        } else {
             System.out.println("Your number is not perfect.");
         }
 

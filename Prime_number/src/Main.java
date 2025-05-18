@@ -1,6 +1,12 @@
+import java.util.Scanner;
+import java.util.Locale;
+
 public class Main {
     public static void main(String[] args) {
-        int num = 23;
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter a number: ");
+        int num= input.nextInt();
 
         if (num == 2 || num == 3)
         {
