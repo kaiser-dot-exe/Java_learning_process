@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Body_mass_index/Body_mass_index.iml" filepath="$PROJECT_DIR$/Body_mass_index/Body_mass_index.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Calculater/Calculater.iml" filepath="$PROJECT_DIR$/Calculater/Calculater.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Java_learning_process.iml" filepath="$PROJECT_DIR$/.idea/Java_learning_process.iml" />
       <module fileurl="file://$PROJECT_DIR$/Midterm_and_final_exam/Midterm_and_final_exam.iml" filepath="$PROJECT_DIR$/Midterm_and_final_exam/Midterm_and_final_exam.iml" />
       <module fileurl="file://$PROJECT_DIR$/Perfect_number/Perfect_number.iml" filepath="$PROJECT_DIR$/Perfect_number/Perfect_number.iml" />
