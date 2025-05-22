@@ -15,6 +15,7 @@ public class Main {
         System.out.print("Enter the second number: ");
         int b = input.nextInt();
 
+
         switch (process) {
             case 1:
                 Total(a, b);
