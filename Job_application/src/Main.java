@@ -12,12 +12,12 @@ public class Main {
         if (age < 35) {
 
             System.out.println("Do you have a driver's license?(Y/N): ");
-            String license = input.next();
+            char license = input.next().toLowerCase().charAt(0);
 
             System.out.println("Are you a university graduate? (Y/N): ");
-            String graduate = input.next();
+            char graduate = input.next().toLowerCase().charAt(0);
 
-            if (license == "Y" || license == "y" && graduate == "Y" || graduate == "y") {
+            if (license == 'y' && graduate == 'y') {
                 System.out.println("Congratulations, you're hired.");
 
 

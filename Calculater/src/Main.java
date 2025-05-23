@@ -18,44 +18,39 @@ public class Main {
 
         switch (process) {
             case 1:
-                Total(a, b);
+                System.out.println(Total(a, b));
                 break;
             case 2:
-                Subtract(a, b);
+                System.out.println(Subtract(a, b));
                 break;
             case 3:
-                Division(a, b);
+                System.out.println(Division(a, b));
                 break;
             case 4:
-                Multiplication(a, b);
+                System.out.println(Multiplication(a, b));
                 break;
 
 
         }
-
     }
 
     public static double Total(int x, int y) {
         double totaly = (x + y);
-        System.out.print(totaly);
         return totaly;
     }
 
     public static double Subtract(int x, int y) {
         double subtrack = (x - y);
-        System.out.print(subtrack);
         return subtrack;
     }
 
     public static double Division(int x, int y) {
         double div = (x / y);
-        System.out.print(div);
         return div;
     }
 
     public static double Multiplication(int x, int y) {
         double impact = (x * y);
-        System.out.print(impact);
         return impact;
     }
 
