@@ -20,11 +20,12 @@ public class Main {
             if (license == 'y' && graduate == 'y') {
                 System.out.println("Congratulations, you're hired.");
 
-
             }
+
             else {
                 System.out.println("Unfortunately, you were not hired.");
             }
+
         }
         else {
             System.out.println("Unfortunately, you were not hired.");
