@@ -1,6 +1,6 @@
 public class Basic_operations {
 
-    public static int Total(int a, int b) {
+    public int Total(int a, int b) {
         int total = a + b;
         System.out.println(total);
         return total;
@@ -13,7 +13,7 @@ public class Basic_operations {
     }
 
 
-    public static int Subtraction(int a, int b) {
+    public int Subtraction(int a, int b) {
         int subtract = a - b;
         System.out.println(subtract);
         return subtract;
@@ -26,7 +26,7 @@ public class Basic_operations {
     }
 
 
-    public static int Multiplication(int a, int b) {
+    public int Multiplication(int a, int b) {
         int multi = a + b;
         System.out.println(multi);
         return multi;
@@ -39,7 +39,7 @@ public class Basic_operations {
     }
 
 
-    public static int Division(int a, int b) {
+    public int Division(int a, int b) {
         int div = a + b;
         System.out.println(div);
         return div;
