@@ -6,12 +6,12 @@ public class Main {
         Basic_operations basic_operations = new Basic_operations();
 
 
-        System.out.print("Birinci sayıyı girin: ");
+        System.out.print("Enter your first number");
 
         if (scanner.hasNextInt()==true) {
 
             int a = scanner.nextInt();
-            System.out.print("İkinci sayıyı girin: ");
+            System.out.print("Enter your second number");
             int b = scanner.nextInt();
 
             System.out.println("1 for Summation,\n2 for Subtract,\n3 for Multiplication ,\n4 for Division: ");
@@ -32,7 +32,7 @@ public class Main {
 
         } else if (scanner.hasNextInt()==false) {
             double a = scanner.nextDouble();
-            System.out.print("İkinci sayıyı girin: ");
+            System.out.print("Enter your second number");
             double b = scanner.nextDouble();
 
             System.out.println("1 for Summation,\n2 for Subtract,\n3 for Multiplication ,\n4 for Division: ");
