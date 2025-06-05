@@ -10,6 +10,7 @@ public class Main {
 
         System.out.print("Enter your first number: ");
         String num1 = input.next();
+        
         System.out.print("Enter your second number: ");
         String num2 = input.next();
 
