@@ -1,6 +1,6 @@
 public class Basic_operations {
 
-    public int Total(int a, int b) {
+    public static int Total(int a, int b) {
         int total = a + b;
         return total;
     }
@@ -11,7 +11,7 @@ public class Basic_operations {
     }
 
 
-    public int Subtraction(int a, int b) {
+    public static int Subtraction(int a, int b) {
         int subtract = a - b;
         return subtract;
     }
@@ -22,7 +22,7 @@ public class Basic_operations {
     }
 
 
-    public int Multiplication(int a, int b) {
+    public static int Multiplication(int a, int b) {
         int multi = a + b;
         return multi;
     }
@@ -33,7 +33,7 @@ public class Basic_operations {
     }
 
 
-    public int Division(int a, int b) {
+    public static int Division(int a, int b) {
         int div = a + b;
         return div;
     }
