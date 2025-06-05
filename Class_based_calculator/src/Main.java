@@ -1,3 +1,4 @@
+import java.util.InputMismatchException;
 import java.util.Scanner;
 import java.util.Locale;
 
@@ -7,49 +8,51 @@ public class Main {
         input.useLocale(Locale.US);
         Basic_operations four_opertions = new Basic_operations();
 
+        System.out.print("Enter your first number: ");
+        String num1 = input.next();
+        System.out.print("Enter your second number: ");
+        String num2 = input.next();
+
         System.out.println("1 for Summation,\n2 for Subtract,\n3 for Multiplication ,\n4 for Division: ");
         int process = input.nextInt();
 
-        System.out.println("Are the numbers you want to enter integers?: (E/H)");
-        char type = input.next().toLowerCase().charAt(0);
+        try {
 
-        if (type == 'e') {
-            System.out.println("Enter your first number :");
-            int a = input.nextInt();
-
-            System.out.println("Enter your second number :");
-            int b = input.nextInt();
+            int a = Integer.parseInt(num1);
+            int b = Integer.parseInt(num2);
 
             if (process == 1) {
-                four_opertions.Total(a, b);
+                System.out.println(four_opertions.Total(a, b));
             } else if (process == 2) {
-                four_opertions.Subtraction(a, b);
+                System.out.println(four_opertions.Subtraction(a, b));
             } else if (process == 3) {
-                four_opertions.Multiplication(a, b);
+                System.out.println(four_opertions.Multiplication(a, b));
             } else if (process == 4) {
-                four_opertions.Division(a, b);
+                System.out.println(four_opertions.Division(a, b));
             } else {
                 System.out.println("Invalid operation");
             }
 
+        } catch (NumberFormatException e) {
+            try {
 
-        } else {
-            System.out.println("Enter your first number :");
-            double a = input.nextDouble();
+                double a = Double.parseDouble(num1);
+                double b = Double.parseDouble(num2);
 
-            System.out.println("Enter your second number :");
-            double b = input.nextDouble();
+                if (process == 1) {
+                    System.out.println(four_opertions.Total(a, b));
+                } else if (process == 2) {
+                    System.out.println(four_opertions.Subtraction(a, b));
+                } else if (process == 3) {
+                    System.out.println(four_opertions.Multiplication(a, b));
+                } else if (process == 4) {
+                    System.out.println(four_opertions.Division(a, b));
+                } else {
+                    System.out.println("Invalid operation");
+                }
 
-            if (process == 1) {
-                four_opertions.Total(a, b);
-            } else if (process == 2) {
-                four_opertions.Subtraction(a, b);
-            } else if (process == 3) {
-                four_opertions.Multiplication(a, b);
-            } else if (process == 4) {
-                four_opertions.Division(a, b);
-            } else {
-                System.out.println("Invalid operation");
+            } catch (NumberFormatException ex) {
+
             }
 
 
@@ -57,6 +60,4 @@ public class Main {
 
 
     }
-
-
 }
