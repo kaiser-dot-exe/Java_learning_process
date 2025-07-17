@@ -27,19 +27,5 @@ public class Main {
         System.out.println("Ayşe'nin Hesap Sahibi: " + acc2.getAccountNumber());
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     }
 }
