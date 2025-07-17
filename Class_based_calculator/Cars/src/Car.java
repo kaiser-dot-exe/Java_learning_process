@@ -6,6 +6,7 @@ public class Car {
     String model;
     String colour;
     int speed;
+    
 
     //Constructor:
     // This method allows us to set the make, model and color when creating a new car.
