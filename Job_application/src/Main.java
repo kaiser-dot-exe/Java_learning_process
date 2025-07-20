@@ -16,6 +16,8 @@ public class Main {
 
             System.out.println("Are you a university graduate? (Y/N): ");
             char graduate = input.next().toLowerCase().charAt(0);
+            input.close();
+            
 
             if (license == 'y' && graduate == 'y') {
                 System.out.println("Congratulations, you're hired.");
