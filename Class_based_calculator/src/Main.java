@@ -16,6 +16,7 @@ public class Main {
 
             System.out.println("1 for Summation,\n2 for Subtract,\n3 for Multiplication ,\n4 for Division: ");
             int process = scanner.nextInt();
+            scanner.close();
 
             if (process == 1) {
                 System.out.println(basic_operations.Total(a, b));
@@ -37,6 +38,7 @@ public class Main {
 
             System.out.println("1 for Summation,\n2 for Subtract,\n3 for Multiplication ,\n4 for Division: ");
             int process = scanner.nextInt();
+            scanner.close();
 
             if (process == 1) {
                 System.out.println(basic_operations.Total(a, b));
